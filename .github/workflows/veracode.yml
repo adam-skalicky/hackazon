@@ -28,7 +28,7 @@ jobs:
       - name: Veracode Upload And Scan
         uses: veracode/veracode-uploadandscan-action@0.2.4
         with: 
-          appname: Juice Shop
+          appname: Hackazon
           vid: ${{ secrets.VERACODE_ID }}
           vkey: ${{ secrets.VERACODE_SECRET }}
           filepath: scan.zip
